@@ -5,10 +5,10 @@ import java.util.ArrayList;
 public class MaiorTemperatura {
     public static void main(String[] args) {
 
-        String cities[] = {"Londres", "Madrid", "Nueva York", "Buenos Aires",
+        String[] cities = {"Londres", "Madrid", "Nueva York", "Buenos Aires",
                 "Asunción", "São Paulo", "Lima", "Santigado de Chile", "Lisboa", "Tokio"};
 
-        int temp[][] = {{-2, 33}, {-3, 32}, {-8, 27}, {4, 37}, {6, 42}, {5, 43}, {0, 39}, {-7, 26}, {-1, 31}, {-10, 35}};
+        int[][] temp = {{-2, 33}, {-3, 32}, {-8, 27}, {4, 37}, {6, 42}, {5, 43}, {0, 39}, {-7, 26}, {-1, 31}, {-10, 35}};
 
         ArrayList<Cities> list = new ArrayList<Cities>();
 
@@ -37,7 +37,7 @@ public class MaiorTemperatura {
             }
         }
 
-        System.out.println("Menor temperatura: " + minimum + ", na cidade: " + citie_min);
-        System.out.println("Maior temperatura: " + maximum + ", na cidade: " + citie_max);
+        System.out.println("Menor temperatura: " + minimum + ", na cidade de " + citie_min);
+        System.out.println("Maior temperatura: " + maximum + ", na cidade de " + citie_max);
     }
 }
