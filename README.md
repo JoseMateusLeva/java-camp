@@ -4,6 +4,10 @@
 
 ## Prática Integradora
 
-Exercícios de prática integradora
+Exercícios de prática integradora.
+
+Você está pronto? Vamos lá! 😎 🤘
+
+---
 
 - [Temperaturas Globais.](https://github.com/JoseMateusLeva/java-camp/tree/master/temperatura)
