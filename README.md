@@ -10,4 +10,7 @@ Você está pronto? Vamos lá! 😎 🤘
 
 ---
 
-- [Temperaturas Globais.](https://github.com/JoseMateusLeva/java-camp/tree/master/temperatura)
+01. Estruturas de Controle e Arrays.
+    - [Temperaturas Globais.](https://github.com/JoseMateusLeva/java-camp/tree/master/temperatura)
+02. Estruturas Dinâmicas.
+    - [Corrida na Selva ]()
