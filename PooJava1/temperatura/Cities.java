@@ -1,4 +1,4 @@
-package temperatura;
+package PooJava1.temperatura;
 
 public class Cities {
     public int number;

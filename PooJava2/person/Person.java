@@ -1,4 +1,4 @@
-package person;
+package PooJava2.person;
 
 public class Person {
 

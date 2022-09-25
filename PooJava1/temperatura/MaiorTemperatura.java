@@ -1,4 +1,4 @@
-package temperatura;
+package PooJava1.temperatura;
 
 import java.util.ArrayList;
 

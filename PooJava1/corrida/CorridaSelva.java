@@ -1,4 +1,4 @@
-package corrida;
+package PooJava1.corrida;
 
 import java.util.ArrayList;
 import java.util.Scanner;

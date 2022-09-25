@@ -1,4 +1,4 @@
-package corrida;
+package PooJava1.corrida;
 
 public class Value {
     Persona persona;
