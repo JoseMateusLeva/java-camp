@@ -10,8 +10,17 @@ Você está pronto? Vamos lá! 😎 🤘
 
 ---
 
-01. Estruturas de Controle e Arrays.
-    - [Temperaturas Globais.](https://github.com/JoseMateusLeva/java-camp/tree/master/temperatura)
-02. Estruturas Dinâmicas.
-    - [Corrida na Selva ](https://github.com/JoseMateusLeva/java-camp/tree/master/corrida)
-03. [Conceitos de programação orientada a objetos.](https://github.com/JoseMateusLeva/java-camp/tree/master/person)
+#### POO + Java I
+
+- Prática Integradora 1
+    - Estruturas de Controle e Arrays.
+        - [Temperaturas Globais.](https://github.com/JoseMateusLeva/java-camp/tree/master/PooJava1/temperatura)
+
+- Prática Integradora 2
+    - Estruturas Dinâmicas.
+        - [Corrida na Selva ](https://github.com/JoseMateusLeva/java-camp/tree/master/PooJava1/corrida)
+
+#### POO + Java II
+
+- Prática Integradora 1
+    - [Conceitos de programação orientada a objetos.](https://github.com/JoseMateusLeva/java-camp/tree/master/PooJava2/person)
