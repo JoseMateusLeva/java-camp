@@ -1,4 +1,4 @@
-package PooJava2.person;
+package PooJava2.integradora1;
 
 
 public class Main {
