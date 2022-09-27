@@ -1,8 +1,8 @@
-package PooJava3.integradora1;
+package PooJava3.integradora1.exercicio1;
 
-import PooJava3.integradora1.classes.Basico;
-import PooJava3.integradora1.classes.Cobrador;
-import PooJava3.integradora1.classes.Executivo;
+import PooJava3.integradora1.exercicio1.classes.Basico;
+import PooJava3.integradora1.exercicio1.classes.Cobrador;
+import PooJava3.integradora1.exercicio1.classes.Executivo;
 
 public class Main {
     public static void main(String[] args) {

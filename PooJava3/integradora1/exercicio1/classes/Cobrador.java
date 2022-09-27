@@ -1,7 +1,7 @@
-package PooJava3.integradora1.classes;
+package PooJava3.integradora1.exercicio1.classes;
 
-import PooJava3.integradora1.interfaces.ConsultarSaldo;
-import PooJava3.integradora1.interfaces.SaqueDinheiro;
+import PooJava3.integradora1.exercicio1.interfaces.ConsultarSaldo;
+import PooJava3.integradora1.exercicio1.interfaces.SaqueDinheiro;
 
 public class Cobrador implements SaqueDinheiro, ConsultarSaldo {
     @Override

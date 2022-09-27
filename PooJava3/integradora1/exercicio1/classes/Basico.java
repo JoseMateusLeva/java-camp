@@ -1,8 +1,8 @@
-package PooJava3.integradora1.classes;
+package PooJava3.integradora1.exercicio1.classes;
 
-import PooJava3.integradora1.interfaces.ConsultarSaldo;
-import PooJava3.integradora1.interfaces.PagamentoServico;
-import PooJava3.integradora1.interfaces.SaqueDinheiro;
+import PooJava3.integradora1.exercicio1.interfaces.ConsultarSaldo;
+import PooJava3.integradora1.exercicio1.interfaces.PagamentoServico;
+import PooJava3.integradora1.exercicio1.interfaces.SaqueDinheiro;
 
 public class Basico implements ConsultarSaldo, PagamentoServico, SaqueDinheiro {
     @Override

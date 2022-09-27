@@ -15,7 +15,6 @@ Você está pronto? Vamos lá! 😎 🤘
 - Prática Integradora 1
     - Estruturas de Controle e
       Arrays ([Temperaturas Globais](https://github.com/JoseMateusLeva/java-camp/tree/master/PooJava1/temperatura))
-
 - Prática Integradora 2
     - Estruturas
       Dinâmicas ([Corrida na Selva](https://github.com/JoseMateusLeva/java-camp/tree/master/PooJava1/corrida))

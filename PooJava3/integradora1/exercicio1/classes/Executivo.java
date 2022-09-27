@@ -1,7 +1,7 @@
-package PooJava3.integradora1.classes;
+package PooJava3.integradora1.exercicio1.classes;
 
-import PooJava3.integradora1.interfaces.Deposito;
-import PooJava3.integradora1.interfaces.Tranferencia;
+import PooJava3.integradora1.exercicio1.interfaces.Deposito;
+import PooJava3.integradora1.exercicio1.interfaces.Tranferencia;
 
 public class Executivo implements Deposito, Tranferencia {
     @Override
