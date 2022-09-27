@@ -19,7 +19,7 @@ Você está pronto? Vamos lá! 😎 🤘
     - Estruturas
       Dinâmicas ([Corrida na Selva](https://github.com/JoseMateusLeva/java-camp/tree/master/PooJava1/corrida))
 
-#### POO + Java II
+#### POO + Java II (Introdução a linguagem Java)
 
 - [Prática Integradora 1](https://github.com/JoseMateusLeva/java-camp/tree/master/PooJava2/integradora1)
 - Prática Integradora 2
@@ -28,6 +28,6 @@ Você está pronto? Vamos lá! 😎 🤘
 
 #### POO + Java III
 
-- Prática Integradora 1
-    - [Exercício 1](https://github.com/JoseMateusLeva/java-camp/tree/master/PooJava3/integradora1)
-    - Exercício 2 em breve...
+- Prática Integradora 1 (**Classes Abstratas e Interfaces**)
+    - [Exercício 1](https://github.com/JoseMateusLeva/java-camp/tree/master/PooJava3/integradora1/exercicio1)
+    - [Exercício 2](https://github.com/JoseMateusLeva/java-camp/tree/master/PooJava3/integradora1/exercicio2)
