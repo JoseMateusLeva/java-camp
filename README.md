@@ -31,3 +31,4 @@ Você está pronto? Vamos lá! 😎 🤘
 - Prática Integradora 1 (**Classes Abstratas e Interfaces**)
     - [Exercício 1](https://github.com/JoseMateusLeva/java-camp/tree/master/PooJava3/integradora1/exercicio1)
     - [Exercício 2](https://github.com/JoseMateusLeva/java-camp/tree/master/PooJava3/integradora1/exercicio2)
+    - [Exercício 3](https://github.com/JoseMateusLeva/java-camp/tree/master/PooJava3/integradora1/exercicio3)
