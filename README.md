@@ -32,3 +32,6 @@ Você está pronto? Vamos lá! 😎 🤘
     - [Exercício 1](https://github.com/JoseMateusLeva/java-camp/tree/master/PooJava3/integradora1/exercicio1)
     - [Exercício 2](https://github.com/JoseMateusLeva/java-camp/tree/master/PooJava3/integradora1/exercicio2)
     - [Exercício 3](https://github.com/JoseMateusLeva/java-camp/tree/master/PooJava3/integradora1/exercicio3)
+
+- Prática Integradora 2 (**Generics + Wrapper + Lambda + Streams**)
+    - [Exercício](https://github.com/JoseMateusLeva/java-camp/tree/master/PooJava3/integradora2)
