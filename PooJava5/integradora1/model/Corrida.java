@@ -20,6 +20,10 @@ public class Corrida {
         this.listaDeVeiculos = new ArrayList<>();
     }
 
+    public void listarVeiculos() {
+        listaDeVeiculos.stream().forEach(System.out::println);
+    }
+
     public void addCarro(Carro carro) {
         if (temVaga()) {
             if (listaDeVeiculos.contains(carro)) {
@@ -117,5 +121,10 @@ public class Corrida {
 
     public void setListaDeVeiculos(List<Veiculo> listaDeVeiculos) {
         this.listaDeVeiculos = listaDeVeiculos;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
     }
 }

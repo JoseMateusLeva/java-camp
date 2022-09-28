@@ -39,5 +39,7 @@ public class Main {
         System.out.println("\nVencedor com sistema de desempenho.");
         System.out.println("VENCEDOR: " + veiculoDesempenho.getPlaca() + " LEVA " + corridaMaluca.getPremioDollar() + " dólares");
 
+        System.out.println("\nListando todos os veiculos que partiparam da corrida");
+        corridaMaluca.listarVeiculos();
     }
 }
