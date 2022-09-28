@@ -38,4 +38,8 @@ Você está pronto? Vamos lá! 😎 🤘
 
 ### POO + Java IV
 
-- Prática Integradora 1 - [Supermercado "O Econômico"]()
+- Prática Integradora 1
+  - [Supermercado "O Econômico"](https://github.com/JoseMateusLeva/java-camp/tree/master/PooJava4/integradora1)
+
+
+### POO + Java V
