@@ -11,6 +11,8 @@ public class Corrida {
     private String nome;
     private int numeroVeiculoPermitido;
     List<Veiculo> listaDeVeiculos;
+    private SocorristaCarro salvaVidasAuto;
+    private SocorristaMoto salvaVidasMoto;
 
     public Corrida(double distancia, double premioDollar, String nome, int numeroVeiculoPermitido) {
         this.distancia = distancia;
@@ -18,6 +20,45 @@ public class Corrida {
         this.nome = nome;
         this.numeroVeiculoPermitido = numeroVeiculoPermitido;
         this.listaDeVeiculos = new ArrayList<>();
+        this.salvaVidasAuto = new SocorristaCarro();
+        this.salvaVidasMoto = new SocorristaMoto();
+    }
+
+    public void socorrerAuto(String placa) {
+        for (Veiculo v : listaDeVeiculos) {
+            if (v.getPlaca().equals(placa) && (v instanceof Carro)) {
+                salvaVidasAuto.socorrer((Carro) v);
+                return;
+            }
+        }
+        System.out.println("Veiculo não encontrado :: " + placa);
+    }
+
+    public void socorrerMoto(String placa) {
+        for (Veiculo m : listaDeVeiculos) {
+            if (m.getPlaca().equals(placa) && (m instanceof Motocicleta)) {
+                salvaVidasMoto.socorrer((Motocicleta) m);
+                return;
+            }
+        }
+        System.out.println("Veiculo não encontrado :: " + placa);
+
+    }
+
+    public void deleteVeiculo(Veiculo veiculo) {
+        if (listaDeVeiculos.remove(veiculo)) {
+            System.out.println("Veiculo removido :: " + veiculo.getPlaca());
+            return;
+        }
+        System.out.println("Veiculo não encontrado :: " + veiculo.getPlaca());
+    }
+
+    public void deleteVeiculoComPlaca(String placa) {
+        if (listaDeVeiculos.removeIf((x) -> x.getPlaca().equals(placa))) {
+            System.out.println("Veiculo com a placa: " + placa + ", removido com sucesso!");
+            return;
+        }
+        System.out.println("Veiculo com a placa: " + placa + ", não encontrado!");
     }
 
     public void listarVeiculos() {

@@ -7,6 +7,8 @@ import PooJava5.integradora1.model.Veiculo;
 
 public class Main {
 
+    private static String PLACA = "Pedramóbil";
+
     public static void main(String[] args) {
         Corrida corridaMaluca = new Corrida(100, 10000.0, "Corrida Maluca", 4);
 
@@ -30,6 +32,17 @@ public class Main {
 
         System.out.println("\nAdicionando carro extra 2...");
         corridaMaluca.addCarro(carro03);
+
+        System.out.println("\nRemovendo veiculo...");
+        corridaMaluca.deleteVeiculo(motocicleta01);
+
+        System.out.println("\nRemovendo veiculo pela placa: ");
+        corridaMaluca.deleteVeiculoComPlaca("Pedramóbil");
+
+        System.out.println("\nIniciando corrida!");
+        corridaMaluca.socorrerAuto("Máquina Malvada");
+        corridaMaluca.socorrerAuto("Lata Escarlate");
+        corridaMaluca.socorrerMoto("Lata Escarlate");
 
         Veiculo veiculoRandomico = corridaMaluca.randomWinner();
         System.out.println("\nVencedor com sistema randomico.");
