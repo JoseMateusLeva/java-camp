@@ -35,3 +35,7 @@ Você está pronto? Vamos lá! 😎 🤘
 
 - Prática Integradora 2 (**Generics + Wrapper + Lambda + Streams**)
     - [Exercício](https://github.com/JoseMateusLeva/java-camp/tree/master/PooJava3/integradora2)
+
+### POO + Java IV
+
+- Prática Integradora 1 - [Supermercado "O Econômico"]()

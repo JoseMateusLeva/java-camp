@@ -1,5 +1,7 @@
-package PooJava4.integradora1.model;
+package PooJava4.integradora1;
 
+import PooJava4.integradora1.model.Cliente;
+import PooJava4.integradora1.model.Item;
 import PooJava4.integradora1.repositorio.ClienteRep;
 import PooJava4.integradora1.repositorio.ItemRep;
 
