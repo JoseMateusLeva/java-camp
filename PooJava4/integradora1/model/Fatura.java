@@ -8,11 +8,10 @@ public class Fatura {
     List<Item> listItens;
     private double totalCompra;
 
-    public Fatura(Long cod, Cliente cliente, List<Item> listItens, double totalCompra) {
+    public Fatura(Long cod, Cliente cliente, List<Item> listItens) {
         this.cod = cod;
         this.cliente = cliente;
         this.listItens = listItens;
-        this.totalCompra = totalCompra;
     }
 
     public Cliente getCliente() {
@@ -47,15 +46,16 @@ public class Fatura {
         this.totalCompra = totalCompra;
     }
 
-    public void valorTotal() {
+    public double valorTotal() {
         this.totalCompra = 0;
         for (Item item : listItens) {
             totalCompra += item.getValorUnitario() * item.getQuantidade();
         }
+        return totalCompra;
     }
 
     @Override
     public String toString() {
-        return "Fatura{codigo=" + cod + ", cliente" + cliente.getName() + ", valorTotal=" + getTotalCompra();
+        return "Fatura{codigo=" + cod + ", cliente: " + cliente.getName() + ", valorTotal=" + valorTotal();
     }
 }

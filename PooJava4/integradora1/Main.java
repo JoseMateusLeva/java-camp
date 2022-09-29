@@ -1,10 +1,13 @@
 package PooJava4.integradora1;
 
 import PooJava4.integradora1.model.Cliente;
+import PooJava4.integradora1.model.Fatura;
 import PooJava4.integradora1.model.Item;
 import PooJava4.integradora1.repositorio.ClienteRep;
 import PooJava4.integradora1.repositorio.ItemRep;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -15,25 +18,32 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("\nIniciando processo com classe Cliente\n");
 
-        clienteRep.addCliente(new Cliente(1L, "Leo", "Bueno"));
+        Cliente c1 = new Cliente(1L, "Leo", "Bueno");
+
+        clienteRep.addCliente(c1);
         clienteRep.addCliente(new Cliente(2L, "Mateus", "Camargo"));
         clienteRep.addCliente(new Cliente(3L, "Bruno", "Cage"));
 
         clienteRep.exibir();
-        getCliente();
-        removeClienteById();
-        clienteRep.exibir();
+        //getCliente();
+        //removeClienteById();
+        //clienteRep.exibir();
 
         System.out.println("\nIniciando processo com classe Item\n");
 
-        item.addCliente(new Item("Produto1", 1, 1.0, 1L));
+        Item i1 = new Item("Produto1", 1, 1.0, 1L);
+
+        item.addCliente(i1);
         item.addCliente(new Item("Produto2", 2, 2.2, 2L));
         item.addCliente(new Item("Produto3", 3, 3.3, 3L));
 
         item.exibir();
-        getItem();
-        removeItemById();
-        item.exibir();
+        //getItem();
+        //removeItemById();
+        //item.exibir();
+
+        Fatura fatura = new Fatura(1L, c1, item.getItems());
+        System.out.println("\n" + fatura);
     }
 
     public static void getCliente() {

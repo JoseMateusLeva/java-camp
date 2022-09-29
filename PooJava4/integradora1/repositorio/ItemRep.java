@@ -44,4 +44,8 @@ public class ItemRep implements Geral {
     public void exibir() {
         items.forEach(System.out::println);
     }
+
+    public List<Item> getItems() {
+        return items;
+    }
 }
