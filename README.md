@@ -9,7 +9,7 @@ Exercícios de prática integradora.
 Você está pronto? Vamos lá! 😎 🤘
 
 ---
+👉 [🅹🅰🆅🅰 Bootcamp BR W7 Java](https://github.com/JoseMateusLeva/java-camp#readme "Java")
 
-[POO + Java]()
-
-[Java + Spring]()
+-[x] [POO + Java](https://github.com/JoseMateusLeva/java-camp/blob/master/POOJAVA.md)
+-[ ] [Java + Spring](https://github.com/JoseMateusLeva/java-camp/blob/master/SPRING.md)
