@@ -1,6 +1,5 @@
-.idea
-out
-untitled.iml
-dog/
-exception/
-prof
+.idea/
+out/
+files/
+prof/
+_DEV.iml
