@@ -28,7 +28,7 @@ public class PessoaController {
         return ResponseEntity.ok(PessoaDTO.convertListToDto(service.getAll()));
     }
 
-    @GetMapping("/pessoa/risk")
+    @GetMapping("/findRiskPerson")
     public ResponseEntity<List<PessoaDTO>> getRiskPerson() {
         return ResponseEntity.ok(PessoaDTO.convertListToDto(service.getRiskPerson()));
     }

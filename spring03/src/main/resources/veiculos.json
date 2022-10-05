@@ -1,0 +1,90 @@
+[ {
+  "id" : 1,
+  "brand" : "Chevrolet",
+  "model" : "Corsa444",
+  "manufacturingDate" : "2000-09-21",
+  "numberOfKilometers" : 90000.0,
+  "doors" : 5,
+  "price" : 90000.0,
+  "currency" : "AR",
+  "countOfOwners" : 2,
+  "services" : null
+}, {
+  "id" : 2,
+  "brand" : "Chevrolet",
+  "model" : "Corsa444",
+  "manufacturingDate" : "2000-09-21",
+  "numberOfKilometers" : 145000.0,
+  "doors" : 5,
+  "price" : 20000.0,
+  "currency" : "AR",
+  "countOfOwners" : 2,
+  "services" : null
+}, {
+  "id" : 2,
+  "brand" : "Chevrolet",
+  "model" : "Corsa444",
+  "manufacturingDate" : "2000-09-21",
+  "numberOfKilometers" : 145000.0,
+  "doors" : 5,
+  "price" : 20000.0,
+  "currency" : "AR",
+  "countOfOwners" : 2,
+  "services" : null
+}, {
+  "id" : 2,
+  "brand" : "Chevrolet",
+  "model" : "Corsa444",
+  "manufacturingDate" : "2000-09-21",
+  "numberOfKilometers" : 145000.0,
+  "doors" : 5,
+  "price" : 20000.0,
+  "currency" : "AR",
+  "countOfOwners" : 2,
+  "services" : null
+}, {
+  "id" : 2,
+  "brand" : "Chevrolet",
+  "model" : "Corsa444",
+  "manufacturingDate" : "2000-09-21",
+  "numberOfKilometers" : 145000.0,
+  "doors" : 5,
+  "price" : 20000.0,
+  "currency" : "AR",
+  "countOfOwners" : 2,
+  "services" : [ {
+    "date" : 969494400000,
+    "kilometers" : 350000.0,
+    "descriptions" : "Trocar filtro"
+  } ]
+}, {
+  "id" : 1,
+  "brand" : "Chevrolet",
+  "model" : "Corsa1",
+  "manufacturingDate" : "2000-09-21",
+  "numberOfKilometers" : 145000.0,
+  "doors" : 5,
+  "price" : 20000.0,
+  "currency" : "AR",
+  "countOfOwners" : 2,
+  "services" : [ {
+    "date" : 969494400000,
+    "kilometers" : 350000.0,
+    "descriptions" : "Trocar filtro"
+  } ]
+}, {
+  "id" : 1,
+  "brand" : "Chevrolet",
+  "model" : "Corsa1",
+  "manufacturingDate" : "2000-12-26",
+  "numberOfKilometers" : 145000.0,
+  "doors" : 5,
+  "price" : 20000.0,
+  "currency" : "AR",
+  "countOfOwners" : 2,
+  "services" : [ {
+    "date" : 969494400000,
+    "kilometers" : 350000.0,
+    "descriptions" : "Trocar filtro"
+  } ]
+} ]

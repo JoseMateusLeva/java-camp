@@ -35,6 +35,5 @@ public class SintomaController {
 
         return sintoma.map(value -> new ResponseEntity<>(SintomaDTO.convertToDto(value), HttpStatus.ACCEPTED))
                 .orElseGet(() -> new ResponseEntity("Este sintoma Não foi encontrado.", HttpStatus.BAD_REQUEST));
-
     }
 }

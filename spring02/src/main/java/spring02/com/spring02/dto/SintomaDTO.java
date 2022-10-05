@@ -6,7 +6,6 @@ import lombok.NoArgsConstructor;
 import spring02.com.spring02.model.Gravidade;
 import spring02.com.spring02.model.Sintoma;
 
-
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
