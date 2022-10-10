@@ -7,15 +7,33 @@ import com.springdesafio.springdesafio.model.Articles;
 import org.springframework.stereotype.Repository;
 
 import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 @Repository
 public class ArticlesRepo {
+    private final String DATABASE = "src/main/resources/products.json";
+
     ObjectMapper mapper = new ObjectMapper();
 
+    Logger logger = Logger.getLogger(ArticlesRepo.class.getName());
+
+    public Articles add(Articles article) throws IOException {
+        ObjectWriter writer = mapper.writer(new DefaultPrettyPrinter());
+        List<Articles> productList = new ArrayList<>(getAll());
+
+        productList.add(article);
+        writer.writeValue(new File(DATABASE), productList);
+
+        return article;
+    }
 
     public List<Articles> getByOrder(String category, Boolean freeShipping, Integer order) {
         switch (order) {
@@ -23,16 +41,16 @@ public class ArticlesRepo {
                 return getAll().stream()
                         .filter(v -> v.getCategory().equals(category) && v.getFreeShipping().equals(freeShipping))
                         .sorted((x, y) -> x.getName().compareToIgnoreCase(y.getName()))
-                        .collect(Collectors.toList());
+                        .toList();
             }
             case 2 -> {
                 return getAll().stream()
                         .filter(v -> v.getCategory().equals(category) && v.getFreeShipping().equals(freeShipping))
                         .sorted(Comparator.comparing(Articles::getPrice))
-                        .collect(Collectors.toList());
+                        .toList();
             }
             default -> {
-                return null;
+                return Collections.emptyList();
             }
         }
     }
@@ -42,21 +60,22 @@ public class ArticlesRepo {
     }
 
     public List<Articles> getByCategoryFree(String category, Boolean status) {
-        return getAll().stream().filter(v -> v.getCategory().equals(category) && v.getFreeShipping().equals(status)).collect(Collectors.toList());
+        return getAll().stream()
+                .filter(v -> v.getCategory().equals(category) && v.getFreeShipping().equals(status))
+                .toList();
     }
 
     public List<Articles> getByCategory(String category) {
-        return getAll().stream().filter(v -> v.getCategory().equals(category)).collect(Collectors.toList());
+        return getAll().stream().filter(v -> v.getCategory().equals(category)).toList();
     }
 
     public List<Articles> getAll() {
         try {
-            String DATABASE = "src/main/resources/products.json";
             return Arrays.asList(mapper.readValue(new File(DATABASE), Articles[].class));
         } catch (Exception ex) {
-            System.out.println("Arquivo não encontrado!");
+            logger.log(Level.INFO, "Arquivo não encontrado!");
         }
 
-        return null;
+        return Collections.emptyList();
     }
 }

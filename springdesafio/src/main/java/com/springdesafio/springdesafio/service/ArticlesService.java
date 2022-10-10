@@ -6,6 +6,7 @@ import com.springdesafio.springdesafio.repository.ArticlesRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.io.IOException;
 import java.util.List;
 
 @Service
@@ -20,8 +21,8 @@ public class ArticlesService implements IArticles {
     }
 
     @Override
-    public void add(Articles article) {
-
+    public Articles add(Articles article) throws IOException {
+        return repo.add(article);
     }
 
     @Override

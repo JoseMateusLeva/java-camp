@@ -3,12 +3,13 @@ package com.springdesafio.springdesafio.service;
 import com.springdesafio.springdesafio.dto.ArticlesDTO;
 import com.springdesafio.springdesafio.model.Articles;
 
+import java.io.IOException;
 import java.util.List;
 
 public interface IArticles {
     List<ArticlesDTO> getAllArticles();
 
-    void add(Articles article);
+    Articles add(Articles article) throws IOException;
 
     List<ArticlesDTO> getByCategory(String category);
 

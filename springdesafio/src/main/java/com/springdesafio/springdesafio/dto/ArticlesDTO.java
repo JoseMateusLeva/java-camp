@@ -24,6 +24,6 @@ public class ArticlesDTO implements Serializable {
     }
 
     public static List<ArticlesDTO> convertDto(List<Articles> articles) {
-        return articles.stream().map(ArticlesDTO::new).collect(Collectors.toList());
+        return articles.stream().map(ArticlesDTO::new).toList();
     }
 }
