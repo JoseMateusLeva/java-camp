@@ -15,13 +15,13 @@ Você está pronto? Vamos lá! 😎 🤘
 #### Java + Spring I
 
 - Prática Integradora 1
-    - [Números Romanos](https://github.com/JoseMateusLeva/java-camp/tree/master/Spring/spring01)
+    - [Números Romanos](https://github.com/JoseMateusLeva/java-camp/tree/master/spring01)
 - Prática Integradora 2
-    - [Código Morse](https://github.com/JoseMateusLeva/java-camp/tree/master/Spring/spring01)
+    - [Código Morse](https://github.com/JoseMateusLeva/java-camp/tree/master/spring01)
 
 #### Java + Spring III
 
 - Prática Integradora 1
-    - [Covid-19](https://github.com/JoseMateusLeva/java-camp/tree/master/Spring/spring02)
+    - [Covid-19](https://github.com/JoseMateusLeva/java-camp/tree/master/spring02)
 - Prática Integradora 3
-    - [Concessionária de Veículos](https://github.com/JoseMateusLeva/java-camp/tree/master/Spring/spring03)
+    - [Concessionária de Veículos](https://github.com/JoseMateusLeva/java-camp/tree/master/spring03)
