@@ -39,7 +39,6 @@ class HelloControllerTest {
 
         MvcResult result = resultActions.andReturn();
         String contentAsString = result.getResponse().getContentAsString();
-
         // SomeCustomResponse response = objectMapper.readValue(contentAsString, SomeCustomResponse.class);
         //
 
