@@ -26,6 +26,12 @@ class HelloControllerTest {
     @Autowired
     private ObjectMapper mapper;
 
+    /**
+     * @return the roman number valid
+     * @throws Exception
+     * @autor José Mateus Camargo de leva
+     * @version 1
+     */
     @Test
     void getRoman_returnRomanNumber_whenIsTrue() throws Exception {
         int number = 1;
