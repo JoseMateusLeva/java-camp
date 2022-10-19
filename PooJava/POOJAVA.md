@@ -4,6 +4,10 @@
 
 ## Poo + Java
 
+**POO Description**
+
+<img src="https://raw.githubusercontent.com/JoseMateusLeva/java-camp/master/img/poo_description.png" align="center" width="333">
+
 ## Prática Integradora
 
 Exercícios de prática integradora.
