@@ -36,14 +36,20 @@ Você está pronto? Vamos lá! 😎 🤘
     - [Exercício 3](https://github.com/JoseMateusLeva/java-camp/tree/master/PooJava/PooJava3/integradora1/exercicio3)
 
 - Prática Integradora 2 (**Generics + Wrapper + Lambda + Streams**)
-    - [Exercício](https://github.com/JoseMateusLeva/java-camp/tree/master/PooJava/PooJava3/integradora2)
+  - [Exercício](https://github.com/JoseMateusLeva/java-camp/tree/master/PooJava/PooJava3/integradora2)
 
 ### POO + Java IV
 
 - Prática Integradora 1
-    - [Supermercado "O Econômico"](https://github.com/JoseMateusLeva/java-camp/tree/master/PooJava/PooJava4/integradora1)
+  - [Supermercado "O Econômico"](https://github.com/JoseMateusLeva/java-camp/tree/master/PooJava/PooJava4/integradora1)
 
 ### POO + Java V
 
 - Prática Integradora 1
-    - [DAKAR - corrida maluca"](https://github.com/JoseMateusLeva/java-camp/tree/master/PooJava/PooJava5/integradora1)
+  - [DAKAR - corrida maluca"](https://github.com/JoseMateusLeva/java-camp/tree/master/PooJava/PooJava5/integradora1)
+
+---
+
+**POO Description**
+
+![Alt text](../img/poo_description.png?raw=true "POO")
